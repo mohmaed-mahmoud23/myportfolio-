@@ -2,24 +2,23 @@ import ProjectsText from "./ProjectsText";
 import SingleProject from "./SingleProject";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
-
 const projects = [
   {
     name: "ecommerce website",
     align: "right",
-    image: "../../public/images/image copy.png",
+    image: "/images/image copy.png", // ✅ مسار صحيح
     link: "https://only-brand.vercel.app/",
   },
   {
     name: "Black Iphone",
     align: "left",
-    image: "../../public/images/ifv.jpeg",
+    image: "/images/ifv.jpeg", // ✅ مسار صحيح
     link: "https://iphone-website-kappa.vercel.app/",
   },
   {
-    name: "simple project ",
+    name: "simple project",
     align: "right",
-    image: "../../public/images/b566ddb4-2511-4dc6-89d0-5ff73023cfc2.jpg",
+    image: "/images/b566ddb4-2511-4dc6-89d0-5ff73023cfc2.jpg", // ✅ مسار صحيح
     link: "https://simpel-progect-fp9e.vercel.app/",
   },
 ];

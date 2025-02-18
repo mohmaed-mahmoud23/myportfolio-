@@ -13,6 +13,6 @@ const ContactMeRight = () => {
       <ContactSocial />
     </div>
   );
-};
+};  
 
 export default ContactMeRight;
