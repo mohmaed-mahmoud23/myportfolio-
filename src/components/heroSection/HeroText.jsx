@@ -31,7 +31,7 @@ const HeroText = () => {
         className="text-lg mt-4"
       >
         Web Developer
-        <br /> 3 Years of Experience
+        <br /> 2 Years of Experience
       </motion.p>
     </div>
   );
